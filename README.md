@@ -8,6 +8,7 @@ The data are results of in vitro muscle contractile experiments using the planta
 WORKFLOW
 
 1. Analyzing single muscle contractions
+
 Raw Data Files are .txt files containing the output of individual muscle contractions. These files are contained in separate folders for each individual. These files contain 20 rows of metadata followed by 6 data columns with headers. 
 Column 1 = time (ms)
 Column 2 = lever position (V)
