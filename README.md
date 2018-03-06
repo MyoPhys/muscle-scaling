@@ -21,7 +21,7 @@ Column 6 = stimulation (V)
 File names are of the format
 [Individual Name]_[Temperature]_[Contraction Type]_[Trial Number]
 
-Files of contraction type “P0” or “P02” are in a separate folder and analyzed using P0_AnalysisCalcsv2.R. The P0 file with the greatest peak force (P0) is used for analyses.
+Files of contraction type “P0” or “P02” are in a separate folder and analyzed using P0_Analysis.R. The P0 file with the greatest peak force (P0) is used for analyses.
 
 All other isotonic contractions are analyzed using “Analyze Individual Trial.R”. This code automatically runs through every trial contained in the folder. The output of these files is concatenated into Individual Output Files (name format: [Individual Name]_output.csv).
 
